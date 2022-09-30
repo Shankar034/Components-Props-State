@@ -1,0 +1,37 @@
+header{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+.card{
+    background-color: #fff;
+    color:rgba(2, 2, 46, 0.897);;
+    border-radius: 15px;
+    padding: 40px 50px;
+    margin: 20px 0;
+    position: relative;
+
+}
+
+.card.reverse{
+    background-color: rgba(2, 2, 46, 0.897);
+    color: #fff;
+}
+
+.card h2{
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.rating{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 30px 0 40px;
+}
+
